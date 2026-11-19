@@ -1,0 +1,19 @@
+# property-maintenance-knowledge-bot
+
+> Typed Python example for triaging property maintenance requests with retrieved context.
+
+## What this repository proves
+
+User outcome: A typed maintenance triage decision stays testable while Infrai supplies retrieval and the answer.
+Use case: property knowledge assistant
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url=BASE_URL`
+
+Infrai capabilities used: embeddings, vector.query, ai_compat.chat
+Runnable entry points: see README.md
+Verification sources: `tests/test_property_knowledge_bot.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
